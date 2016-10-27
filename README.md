@@ -16,3 +16,5 @@ There are two issues:
 http://stackoverflow.com/a/19798648/3283203
 
 You just have to know it. It allows to check weither a value has been set in XAML or not, allowing the Panel's elements to overwrite LayoutSetter's properties if needed.
+
+And it indirectly solves the second problem, because if a property is not set, it's already set to the default value, so there's no change.
